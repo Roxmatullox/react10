@@ -14,7 +14,7 @@ const Login = ({setLogin}) => {
     const {username} = values
     localStorage.setItem( "Login" , username)
     setLogin(true)
-    navigate("/dashboard")
+    navigate("/teachers")
   };
 
   return (
