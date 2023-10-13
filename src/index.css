@@ -1,0 +1,12 @@
+#login{
+  height: 100vh;
+  background-color: #ddd;
+  >div{
+    height: 100vh;
+    >form{
+      background-color: white;
+      padding: 20px;
+      border-radius: 15px;
+    }
+  }
+}
